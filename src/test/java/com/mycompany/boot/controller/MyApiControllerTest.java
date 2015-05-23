@@ -31,7 +31,6 @@ public class MyApiControllerTest {
 
     @Before
     public void setUp() throws Exception {
-        myApiController = new MyApiController();
         mvc = MockMvcBuilders.standaloneSetup(myApiController).build();
     }
 
